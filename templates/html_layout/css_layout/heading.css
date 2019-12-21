@@ -1,0 +1,41 @@
+
+.heading{
+    background-color:white;
+}
+
+.logo_text{
+    height: 70px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    margin-bottom: 5px;
+    
+}
+
+.logo_text h1,span{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #555555;
+    font-size: 35px;
+    padding-left: 15px;
+    margin-top: -25px;
+}
+
+.logo_text h1:hover{
+    color:green;
+}
+
+.logo_text p{
+    float: right;
+    margin-top: 18px;
+    padding: 0px 10px 0px 0px ;
+    color:black;
+    font-size: 15px;
+    letter-spacing: 5px;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+

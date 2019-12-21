@@ -1,0 +1,68 @@
+doctype html
+html
+    head
+        title=pageTitile
+    //- jquery CDN
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js").
+    //- jquery
+    script.
+        $(document).ready(function(){
+            $('input[type=Submit]').on({
+                click:function(){
+                    $(this).css('background-color','red')
+                },
+                
+            });
+        });
+
+    style
+        include ./css_layout/form.css
+    body
+        div(class="form")
+            div(class="form_container")
+                form(action="#")
+                    label First Name 
+                        br
+                        input(type="text" name="firstName" placeholder="Your first name..")
+                        br
+                    label Last Name 
+                        br
+                        input(type="text" name="lastName" placeholder="Your last name..")    
+                        br
+                    label Age 
+                        br
+                        input(type="text" name="age" placeholder="Your age..")
+                        br
+                    label Country
+                        br
+                        select(name="country")
+                            option India
+                            option America
+                            option Australia
+                        br
+                    label Gender
+                        br
+                    label Male
+                        input(type="radio" name="gender")
+                    label Female
+                        input(type="radio" name="gender")
+                        br
+                    input(type="Submit" Value="Submit" onclick="myFunction()")
+                    
+        
+
+            
+                
+
+
+         
+
+        
+
+
+        
+            
+            
+        
+            
+            

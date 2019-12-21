@@ -1,0 +1,30 @@
+a{
+    color: black;
+}
+
+.left_side_bar{
+    box-sizing: border-box;
+    width: 19%;
+    height: 600px;
+    background-color: #f1f1f1;
+    /* padding-left: 10px; */
+    font-family: "Segoe UI",Arial,sans-serif;
+    overflow: auto;
+}
+.left_side_bar h1{
+    font-size: 20px;
+    padding-left:25px ;
+}
+.left_side_bar a{
+    color: black;
+    padding: 5px 0px 0px 25px;
+    display: block;
+
+}
+
+.left_side_bar a:hover{
+    background-color: lightgray;
+}
+.left_side_bar a:active{
+    background-color: green;
+}
